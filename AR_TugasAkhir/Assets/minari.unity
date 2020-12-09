@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657844, g: 0.49641222, b: 0.57481694, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657874, g: 0.49641258, b: 0.5748172, a: 1}
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
@@ -119,7 +119,7 @@ Material:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: minarimarker.Front_scaledMaterial
+  m_Name: '--- EMPTY ---_scaledMaterial'
   m_Shader: {fileID: 10752, guid: 0000000000000000f000000000000000, type: 0}
   m_ShaderKeywords: 
   m_LightmapFlags: 5
@@ -132,7 +132,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 466af29e1b7d4ab1a4aac87be95d5d47, type: 3}
+        m_Texture: {fileID: 0}
         m_Scale: {x: -1, y: -1}
         m_Offset: {x: 0, y: 0}
     m_Floats: []
@@ -215,7 +215,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: cbbd158373ec4028aae952f51b9854c1, type: 3}
+        m_Texture: {fileID: 2800000, guid: 5f0d928aacab492898e1bf8b2f4c0e13, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats: []
@@ -568,7 +568,7 @@ Material:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: minarimarker.Top_scaledMaterial
+  m_Name: '--- EMPTY ---_scaledMaterial'
   m_Shader: {fileID: 10752, guid: 0000000000000000f000000000000000, type: 0}
   m_ShaderKeywords: 
   m_LightmapFlags: 5
@@ -581,7 +581,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: ccc72a8f4cb040798e62e436c9b906b5, type: 3}
+        m_Texture: {fileID: 0}
         m_Scale: {x: -1, y: -1}
         m_Offset: {x: 0, y: 0}
     m_Floats: []
@@ -874,7 +874,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: d52bcc53d2824d608621e371ca46ebfe, type: 3}
+        m_Texture: {fileID: 2800000, guid: 997b7c2893e144ac9e39f7f1725f6ce3, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats: []
@@ -903,7 +903,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 2632e8ea4af64dd49e4bb494a3c143b5, type: 3}
+        m_Texture: {fileID: 2800000, guid: 6e1ca3386d654bc9a1972e548bf704a8, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats: []
@@ -921,7 +921,7 @@ GameObject:
   - component: {fileID: 243504382}
   - component: {fileID: 243504381}
   m_Layer: 0
-  m_Name: minarimarker.Right
+  m_Name: '--- EMPTY ---'
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -933,8 +933,8 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 243504379}
-  m_LocalRotation: {x: 0, y: 0, z: -0.7071068, w: 0.7071068}
-  m_LocalPosition: {x: 0.5, y: 0, z: 0}
+  m_LocalRotation: {x: 1, y: 0, z: 0, w: -0.00000004371139}
+  m_LocalPosition: {x: 0, y: -0.5, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1029477808}
@@ -1129,7 +1129,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 3b31bfc7866d4aa3955d053c3d34f48d, type: 3}
+        m_Texture: {fileID: 2800000, guid: 60cbcdfc7407499d8aadaa13e031763f, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats: []
@@ -1756,10 +1756,10 @@ MonoBehaviour:
   m_Script: {fileID: 1568443412, guid: 1e108ae5f2133934f948edded555f03e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mTrackableName: minarimarker
+  mTrackableName: '--- EMPTY ---'
   mPreserveChildSize: 0
   mInitializedInEditor: 1
-  mDataSetPath: Vuforia/minari.xml
+  mDataSetPath: '--- EMPTY ---'
   mExtendedTracking: 0
 --- !u!4 &528156479
 Transform:
@@ -1787,7 +1787,7 @@ GameObject:
   - component: {fileID: 540402815}
   - component: {fileID: 540402814}
   m_Layer: 0
-  m_Name: minarimarker.Back
+  m_Name: '--- EMPTY ---'
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1799,8 +1799,8 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 540402812}
-  m_LocalRotation: {x: -0, y: 0, z: -1, w: -0.00000004371139}
-  m_LocalPosition: {x: 0, y: -0.5, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0.7071068, w: 0.7071068}
+  m_LocalPosition: {x: 0.5, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1029477808}
@@ -1871,7 +1871,7 @@ GameObject:
   - component: {fileID: 600013583}
   - component: {fileID: 600013582}
   m_Layer: 0
-  m_Name: minarimarker.Left
+  m_Name: '--- EMPTY ---'
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1883,8 +1883,8 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 600013580}
-  m_LocalRotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
-  m_LocalPosition: {x: -0.5, y: 0, z: 0}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.5, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1983499502}
@@ -2507,7 +2507,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 982984b62dbc430bbb0c2ac4a632059e, type: 3}
+        m_Texture: {fileID: 2800000, guid: 0da4621b2b624db789f8a2b9ea249469, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats: []
@@ -2519,7 +2519,7 @@ Material:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: minarimarker.Left_scaledMaterial
+  m_Name: '--- EMPTY ---_scaledMaterial'
   m_Shader: {fileID: 10752, guid: 0000000000000000f000000000000000, type: 0}
   m_ShaderKeywords: 
   m_LightmapFlags: 5
@@ -2532,7 +2532,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: d4770b812d4641d1985fa758ea1d63c4, type: 3}
+        m_Texture: {fileID: 0}
         m_Scale: {x: -1, y: -1}
         m_Offset: {x: 0, y: 0}
     m_Floats: []
@@ -2687,7 +2687,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: d090248193d84ac686e1b1539a2a4107, type: 3}
+        m_Texture: {fileID: 2800000, guid: abe95f3ac63c4cee866023cca2c11a41, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats: []
@@ -2946,7 +2946,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: dbce5f16244b4292bb0b05063116fc73, type: 3}
+        m_Texture: {fileID: 2800000, guid: 022819f96ec641d88d2ee72ebc685e53, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats: []
@@ -2971,7 +2971,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 8a3784860cb842faa1484959c96722dd, type: 3}
+        m_Texture: {fileID: 2800000, guid: fe405e0278d84d2786a0c2aebd056dd5, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats: []
@@ -3123,7 +3123,7 @@ GameObject:
   - component: {fileID: 1006208506}
   - component: {fileID: 1006208505}
   m_Layer: 0
-  m_Name: minarimarker.Top
+  m_Name: '--- EMPTY ---'
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3266,7 +3266,7 @@ Material:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: minarimarker.Back_scaledMaterial
+  m_Name: '--- EMPTY ---_scaledMaterial'
   m_Shader: {fileID: 10752, guid: 0000000000000000f000000000000000, type: 0}
   m_ShaderKeywords: 
   m_LightmapFlags: 5
@@ -3279,7 +3279,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 9d9affec549840b7893f893edcd711e9, type: 3}
+        m_Texture: {fileID: 0}
         m_Scale: {x: -1, y: -1}
         m_Offset: {x: 0, y: 0}
     m_Floats: []
@@ -3514,7 +3514,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 94fb1700e5bf470b98e86b261e7c4ffc, type: 3}
+        m_Texture: {fileID: 2800000, guid: adee8902f6c64ce3a25eee2f299412bb, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats: []
@@ -3842,7 +3842,7 @@ GameObject:
   - component: {fileID: 1190085241}
   - component: {fileID: 1190085240}
   m_Layer: 0
-  m_Name: minarimarker.Bottom
+  m_Name: '--- EMPTY ---'
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3854,7 +3854,7 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1190085238}
-  m_LocalRotation: {x: -0.7071068, y: 0, z: 0, w: 0.7071068}
+  m_LocalRotation: {x: -0.7071068, y: -0, z: -0, w: 0.7071068}
   m_LocalPosition: {x: 0, y: 0, z: -0.5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
@@ -4102,7 +4102,7 @@ GameObject:
   - component: {fileID: 1250470404}
   - component: {fileID: 1250470403}
   m_Layer: 0
-  m_Name: minarimarker.Front
+  m_Name: '--- EMPTY ---'
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4114,8 +4114,8 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1250470401}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.5, z: 0}
+  m_LocalRotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
+  m_LocalPosition: {x: -0.5, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1029477808}
@@ -4498,7 +4498,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 0a39b8f495f7419dbdfe18c029ebb327, type: 3}
+        m_Texture: {fileID: 2800000, guid: 5ac2af83a4c243ea990732afdc7c2b6e, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats: []
@@ -5030,7 +5030,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: f1325f1d96924b60a3dc50fe55af9b0d, type: 3}
+        m_Texture: {fileID: 2800000, guid: 6ad9f9d45f58437db9ae260c43c387a0, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats: []
@@ -5189,7 +5189,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 25d166563b7e47df90b59ab5b6a364e3, type: 3}
+        m_Texture: {fileID: 2800000, guid: a54ce8224f48427b882b30f475e3f9fe, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats: []
@@ -5448,7 +5448,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: c5d0d2ca8bed4d4e88532b905ad99052, type: 3}
+        m_Texture: {fileID: 2800000, guid: 634c024fcd3a4c3b8a06d45e1db8b696, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats: []
@@ -5531,7 +5531,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 7d9562ce152a4110b8437a56b31898f6, type: 3}
+        m_Texture: {fileID: 2800000, guid: 20e614600cdc4da18ef433c79e860727, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats: []
@@ -5556,7 +5556,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 75cdcc23124849d0b5627853d63daee7, type: 3}
+        m_Texture: {fileID: 2800000, guid: 2091bd78195442bc838f1feaa924bc56, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats: []
@@ -5944,7 +5944,7 @@ Material:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: minarimarker.Right_scaledMaterial
+  m_Name: '--- EMPTY ---_scaledMaterial'
   m_Shader: {fileID: 10752, guid: 0000000000000000f000000000000000, type: 0}
   m_ShaderKeywords: 
   m_LightmapFlags: 5
@@ -5957,7 +5957,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: f1eda1e2ab7d4fe887967e2e041cdf86, type: 3}
+        m_Texture: {fileID: 0}
         m_Scale: {x: -1, y: -1}
         m_Offset: {x: 0, y: 0}
     m_Floats: []
@@ -6073,7 +6073,7 @@ Material:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: minarimarker.Bottom_scaledMaterial
+  m_Name: '--- EMPTY ---_scaledMaterial'
   m_Shader: {fileID: 10752, guid: 0000000000000000f000000000000000, type: 0}
   m_ShaderKeywords: 
   m_LightmapFlags: 5
@@ -6086,7 +6086,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 492dbb42b14f43b48cee87567d4768d3, type: 3}
+        m_Texture: {fileID: 0}
         m_Scale: {x: -1, y: -1}
         m_Offset: {x: 0, y: 0}
     m_Floats: []
