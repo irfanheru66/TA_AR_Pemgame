@@ -34,6 +34,7 @@ public class UserInterfaceButtons : MonoBehaviour
 		}
 
 		if (repeatRotateLeft) {
+			Debug.Log(repeatRotateLeft);
 			RotationLeftButton();
 		}
 
@@ -63,15 +64,21 @@ public class UserInterfaceButtons : MonoBehaviour
 	public void RotationRightButton ()
 	{
 		// transform.Rotate (0, -rotationSpeed * Time.deltaTime, 0);
-		GameObject.FindWithTag ("Model").transform.Rotate (0, -rotationSpeed * Time.deltaTime, 0, Space.Self);
+
+		foreach (GameObject m in GameObject.FindGameObjectsWithTag("Model"))
+         {
+             m.transform.Rotate (0, -rotationSpeed * Time.deltaTime, 0,Space.World);
+         }
 	}
 
 	public void RotationLeftButton ()
 	{
-		Debug.Log(repeatRotateLeft);
+		
 		// transform.Rotate (0, rotationSpeed * Time.deltaTime, 0);
-		GameObject.FindWithTag ("Model").transform.Rotate (0, rotationSpeed * Time.deltaTime, 0, Space.Self);
-
+		foreach (GameObject m in GameObject.FindGameObjectsWithTag("Model"))
+         {
+             m.transform.Rotate (0, rotationSpeed * Time.deltaTime, 0,Space.World);
+         }
 	}
 
 	public void RotationRightButtonRepeat ()
