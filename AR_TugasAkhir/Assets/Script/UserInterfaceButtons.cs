@@ -27,7 +27,9 @@ public class UserInterfaceButtons : MonoBehaviour
 			ScaleDownButton ();
 		}
 
+		
 		if (repeatRotateRight) {
+			Debug.Log("ya");
 			RotationRightButton();
 		}
 
@@ -61,13 +63,15 @@ public class UserInterfaceButtons : MonoBehaviour
 	public void RotationRightButton ()
 	{
 		// transform.Rotate (0, -rotationSpeed * Time.deltaTime, 0);
-		GameObject.FindWithTag ("Model").transform.Rotate (0, -rotationSpeed * Time.deltaTime, 0);
+		GameObject.FindWithTag ("Model").transform.Rotate (0, -rotationSpeed * Time.deltaTime, 0, Space.Self);
 	}
 
 	public void RotationLeftButton ()
 	{
+		Debug.Log(repeatRotateLeft);
 		// transform.Rotate (0, rotationSpeed * Time.deltaTime, 0);
-		GameObject.FindWithTag ("Model").transform.Rotate (0, rotationSpeed * Time.deltaTime, 0);
+		GameObject.FindWithTag ("Model").transform.Rotate (0, rotationSpeed * Time.deltaTime, 0, Space.Self);
+
 	}
 
 	public void RotationRightButtonRepeat ()
