@@ -96,7 +96,10 @@ public class UserInterfaceButtons : MonoBehaviour
 	public void ScaleUpButton ()
 	{
 		// transform.localScale += new Vector3(scalingSpeed, scalingSpeed, scalingSpeed);
-			GameObject.FindWithTag ("Model").transform.localScale += new Vector3 (scalingSpeed, scalingSpeed, scalingSpeed);
+		foreach (GameObject m in GameObject.FindGameObjectsWithTag("Model"))
+         {
+             m.transform.localScale += new Vector3 (scalingSpeed, scalingSpeed, scalingSpeed);
+         }
 		}
 
 	public void ScaleUpButtonRepeat ()
@@ -172,7 +175,11 @@ public class UserInterfaceButtons : MonoBehaviour
 	public void ScaleDownButton ()
 	{
 		// transform.localScale += new Vector3(-scalingSpeed, -scalingSpeed, -scalingSpeed);
-		GameObject.FindWithTag ("Model").transform.localScale += new Vector3 (-scalingSpeed, -scalingSpeed, -scalingSpeed);
+		
+		foreach (GameObject m in GameObject.FindGameObjectsWithTag("Model"))
+         {
+             m.transform.localScale += new Vector3 (-scalingSpeed, -scalingSpeed, -scalingSpeed);
+         }
 	}
 
 	public void PositionUpButton ()
