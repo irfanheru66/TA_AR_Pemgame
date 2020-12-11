@@ -1,0 +1,99 @@
+Zebra
+Equus quagga
+Padang Rumput
+Afrika
+
+Serigala
+Canis Lupus
+Pegunungan Bersalju
+Eurasia
+
+Domba
+Ovis Aries
+Padang Rumput
+Timur Tengah
+
+Tikus
+Rattus Rattus
+Wilayah Padat Penduduk
+Asia
+
+Pinguin
+Aptenodytes forsteri
+Tundra
+Artik
+
+Llama
+Lama glama
+Pegunungan
+Amerika Selatan
+
+Kuda
+Equus ferus caballus
+Padang Rumput
+Asia
+
+Beruang Grizzly
+Ursus arctos horribilis
+Padang Salju
+Amerika
+
+Kambing
+Capra aegagrus hircus
+Padang Rumput
+Asia Barat
+
+Jerapah
+Giraffa camelopardalis
+Padang Rumput
+Afrika
+
+Rusa
+Cervus canadensis
+Tundra
+Asia
+
+Sapi
+Bos taurus
+Padang Rumput
+Timur Tengah
+
+Alpaca
+Vicugna pacos
+Pegunungan
+Amerika Selatan
+
+Kucing
+Felis catus
+Padang Rumput
+Afrika Utara
+
+Unta
+Camelus bactrianus
+Padang Rumput
+Timur Tengah
+
+Panda
+Ailuropoda melanoleuca
+Pegunungan
+Asia
+
+Badak
+Ceratotherium simum simum
+Padang Rumput
+Afrika
+
+Kanguru
+Macropus giganteus
+Padang Rumput
+Australia
+
+Singa
+Panthera leo
+Padang Rumput
+Afrika
+
+Gajah
+Loxodonta cyclotis
+Padang Rumput
+Afrika
