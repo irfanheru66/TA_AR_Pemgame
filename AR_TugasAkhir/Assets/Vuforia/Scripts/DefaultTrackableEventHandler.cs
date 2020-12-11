@@ -22,6 +22,9 @@ public class DefaultTrackableEventHandler : MonoBehaviour, ITrackableEventHandle
 
     #region UNITY_MONOBEHAVIOUR_METHODS
 
+    public AudioSource aSource;
+    public AudioClip aClip;
+
     protected virtual void Start()
     {
         mTrackableBehaviour = GetComponent<TrackableBehaviour>();
@@ -52,12 +55,15 @@ public class DefaultTrackableEventHandler : MonoBehaviour, ITrackableEventHandle
             newStatus == TrackableBehaviour.Status.EXTENDED_TRACKED)
         {
             Debug.Log("Trackable " + mTrackableBehaviour.TrackableName + " found");
+             aSource.PlayOneShot(aClip);
             OnTrackingFound();
+           
         }
         else if (previousStatus == TrackableBehaviour.Status.TRACKED &&
                  newStatus == TrackableBehaviour.Status.NOT_FOUND)
         {
             Debug.Log("Trackable " + mTrackableBehaviour.TrackableName + " lost");
+            aSource.Stop();
             OnTrackingLost();
         }
         else
@@ -65,6 +71,7 @@ public class DefaultTrackableEventHandler : MonoBehaviour, ITrackableEventHandle
             // For combo of previousStatus=UNKNOWN + newStatus=UNKNOWN|NOT_FOUND
             // Vuforia is starting, but tracking has not been lost or found yet
             // Call OnTrackingLost() to hide the augmentations
+            aSource.Stop();
             OnTrackingLost();
         }
     }
