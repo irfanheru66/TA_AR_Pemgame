@@ -212,6 +212,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   aSource: {fileID: 2027996836}
   aClip: {fileID: 8300000, guid: e40c75356434fe648af4a5ed15122b5e, type: 3}
+  namaText: {fileID: 464498972}
+  latinText: {fileID: 1789221086}
+  habitatText: {fileID: 1505591714}
+  tempatText: {fileID: 821937804}
+  nama: Badak
+  latin: Ceratotherium simum simum
+  habitat: Padang Rumput
+  tempat: Afrika
 --- !u!114 &21345033
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -458,6 +466,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   aSource: {fileID: 2027996836}
   aClip: {fileID: 8300000, guid: a38898ff361134c47bce149271754372, type: 3}
+  namaText: {fileID: 464498972}
+  latinText: {fileID: 1789221086}
+  habitatText: {fileID: 1505591714}
+  tempatText: {fileID: 821937804}
+  nama: Sapi
+  latin: Bos taurus
+  habitat: Padang Rumput
+  tempat: 'Timur Tengah '
 --- !u!114 &72089344
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -810,6 +826,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   aSource: {fileID: 2027996836}
   aClip: {fileID: 8300000, guid: e5774ed70a39f6a498138e291ea78dde, type: 3}
+  namaText: {fileID: 464498972}
+  latinText: {fileID: 1789221086}
+  habitatText: {fileID: 1505591714}
+  tempatText: {fileID: 821937804}
+  nama: Domba
+  latin: Ovis Aries
+  habitat: Padang Rumput
+  tempat: Timur Tengah
 --- !u!114 &101226141
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1322,6 +1346,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   aSource: {fileID: 2027996836}
   aClip: {fileID: 8300000, guid: f60e66f181089f547999774ed706edd5, type: 3}
+  namaText: {fileID: 464498972}
+  latinText: {fileID: 1789221086}
+  habitatText: {fileID: 1505591714}
+  tempatText: {fileID: 821937804}
+  nama: Unta
+  latin: Camelus bactrianus
+  habitat: Padang Rumput
+  tempat: Timur Tengah
 --- !u!114 &277550150
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1495,6 +1527,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   aSource: {fileID: 2027996836}
   aClip: {fileID: 8300000, guid: 10249616dd3685340ac7703baf0a8aa0, type: 3}
+  namaText: {fileID: 464498972}
+  latinText: {fileID: 1789221086}
+  habitatText: {fileID: 1505591714}
+  tempatText: {fileID: 821937804}
+  nama: Kucing
+  latin: Felis catus
+  habitat: Padang Rumput
+  tempat: Afrika Utara
 --- !u!114 &407469842
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1614,6 +1654,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   aSource: {fileID: 2027996836}
   aClip: {fileID: 8300000, guid: 1da0d1c7d04133743a84e840040cab1b, type: 3}
+  namaText: {fileID: 464498972}
+  latinText: {fileID: 1789221086}
+  habitatText: {fileID: 1505591714}
+  tempatText: {fileID: 821937804}
+  nama: Kambing
+  latin: Capra aegagrus hircus
+  habitat: Padang Rumput
+  tempat: Asia Barat
 --- !u!114 &415657981
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1733,6 +1781,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   aSource: {fileID: 2027996836}
   aClip: {fileID: 8300000, guid: 52010c5214005ad4faf26b98e37dd240, type: 3}
+  namaText: {fileID: 464498972}
+  latinText: {fileID: 1789221086}
+  habitatText: {fileID: 1505591714}
+  tempatText: {fileID: 821937804}
+  nama: Alpaca
+  latin: Vicugna pacos
+  habitat: Pegunungan
+  tempat: Amerika Selatan
 --- !u!114 &429017987
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1882,7 +1938,7 @@ GameObject:
   - component: {fileID: 464498973}
   - component: {fileID: 464498972}
   m_Layer: 5
-  m_Name: Text
+  m_Name: nama
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1896,14 +1952,14 @@ RectTransform:
   m_GameObject: {fileID: 464498970}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 3.584345, y: 1.9784168, z: 1}
   m_Children: []
   m_Father: {fileID: 1201082927}
-  m_RootOrder: 7
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -125.90003, y: 19.7}
+  m_AnchoredPosition: {x: 685.67, y: 81.74095}
   m_SizeDelta: {x: 218.8, y: 167.6}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &464498972
@@ -1927,10 +1983,10 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 14
+    m_FontSize: 15
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 10
+    m_MinSize: 1
     m_MaxSize: 40
     m_Alignment: 0
     m_AlignByGeometry: 0
@@ -2044,6 +2100,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   aSource: {fileID: 2027996836}
   aClip: {fileID: 8300000, guid: 070a132713608944ca78698ae1fa91df, type: 3}
+  namaText: {fileID: 464498972}
+  latinText: {fileID: 1789221086}
+  habitatText: {fileID: 1505591714}
+  tempatText: {fileID: 821937804}
+  nama: Singa
+  latin: Panthera leo
+  habitat: Padang Rumput
+  tempat: Afrika
 --- !u!114 &468354076
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2510,236 +2574,10 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &648215879
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 648215880}
-  - component: {fileID: 648215882}
-  - component: {fileID: 648215881}
-  m_Layer: 5
-  m_Name: RawImage
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &648215880
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 648215879}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1.5984257, y: 1.4069102, z: 1}
-  m_Children: []
-  m_Father: {fileID: 807585540}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 1.0229645, y: -0.00017762}
-  m_SizeDelta: {x: 104, y: 29.277}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &648215881
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 648215879}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -98529514, guid: f70555f144d8491a825f0804e09c671c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
-      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Texture: {fileID: 2800000, guid: f5862e0cfc039a542a07bb5a67d19ccf, type: 3}
-  m_UVRect:
-    serializedVersion: 2
-    x: 0
-    y: 0
-    width: 1
-    height: 1
---- !u!222 &648215882
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 648215879}
 --- !u!4 &664432859 stripped
 Transform:
   m_PrefabParentObject: {fileID: 400002, guid: 0a0b6257d9fc69c4a98a01a5edb1b6e6, type: 3}
   m_PrefabInternal: {fileID: 1207668440}
---- !u!1 &669219441
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 669219442}
-  - component: {fileID: 669219445}
-  - component: {fileID: 669219444}
-  - component: {fileID: 669219443}
-  - component: {fileID: 669219446}
-  m_Layer: 5
-  m_Name: RotateRight
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &669219442
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 669219441}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.62562, y: 0.71077996, z: 1}
-  m_Children:
-  - {fileID: 2078507150}
-  m_Father: {fileID: 1201082927}
-  m_RootOrder: 4
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 207.09998, y: -90}
-  m_SizeDelta: {x: 166.3, y: 39.1}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &669219443
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 669219441}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1392445389, guid: f70555f144d8491a825f0804e09c671c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Navigation:
-    m_Mode: 3
-    m_SelectOnUp: {fileID: 0}
-    m_SelectOnDown: {fileID: 0}
-    m_SelectOnLeft: {fileID: 0}
-    m_SelectOnRight: {fileID: 0}
-  m_Transition: 1
-  m_Colors:
-    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
-    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
-    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
-    m_ColorMultiplier: 1
-    m_FadeDuration: 0.1
-  m_SpriteState:
-    m_HighlightedSprite: {fileID: 0}
-    m_PressedSprite: {fileID: 0}
-    m_DisabledSprite: {fileID: 0}
-  m_AnimationTriggers:
-    m_NormalTrigger: Normal
-    m_HighlightedTrigger: Highlighted
-    m_PressedTrigger: Pressed
-    m_DisabledTrigger: Disabled
-  m_Interactable: 1
-  m_TargetGraphic: {fileID: 669219444}
-  m_OnClick:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
-      Culture=neutral, PublicKeyToken=null
---- !u!114 &669219444
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 669219441}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
-      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
---- !u!222 &669219445
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 669219441}
---- !u!114 &669219446
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 669219441}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -1862395651, guid: f70555f144d8491a825f0804e09c671c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Delegates:
-  - eventID: 2
-    callback:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 1583961432}
-          m_MethodName: RotationRightButtonRepeat
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
-      m_TypeName: UnityEngine.EventSystems.EventTrigger+TriggerEvent, UnityEngine.UI,
-        Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  - eventID: 3
-    callback:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 1583961432}
-          m_MethodName: RotateRightButtonOff
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
-      m_TypeName: UnityEngine.EventSystems.EventTrigger+TriggerEvent, UnityEngine.UI,
-        Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  delegates: []
 --- !u!1 &695220917
 GameObject:
   m_ObjectHideFlags: 0
@@ -2767,15 +2605,15 @@ RectTransform:
   m_GameObject: {fileID: 695220917}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.62562, y: 0.71077996, z: 1}
+  m_LocalScale: {x: 2.242438, y: 2.2247784, z: 1}
   m_Children:
   - {fileID: 813626311}
   m_Father: {fileID: 1201082927}
-  m_RootOrder: 6
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 204.39996, y: -135.03503}
+  m_AnchoredPosition: {x: 901.09, y: -471}
   m_SizeDelta: {x: 162.9, y: 39.11}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &695220919
@@ -3142,6 +2980,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   aSource: {fileID: 2027996836}
   aClip: {fileID: 8300000, guid: 632f326e6b8f0e040bb6f427857a91b1, type: 3}
+  namaText: {fileID: 464498972}
+  latinText: {fileID: 1789221086}
+  habitatText: {fileID: 1505591714}
+  tempatText: {fileID: 821937804}
+  nama: 'Llama  '
+  latin: Lama glama
+  habitat: Pegunungan
+  tempat: Amerika Selatan
 --- !u!114 &798641422
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3162,165 +3008,6 @@ MonoBehaviour:
   mImageTargetType: 0
   mWidth: 1
   mHeight: 0.524017
---- !u!1 &807585539
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 807585540}
-  - component: {fileID: 807585543}
-  - component: {fileID: 807585542}
-  - component: {fileID: 807585541}
-  - component: {fileID: 807585544}
-  m_Layer: 5
-  m_Name: RotateLeft
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &807585540
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 807585539}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.62561554, y: 0.7107774, z: 1}
-  m_Children:
-  - {fileID: 648215880}
-  m_Father: {fileID: 1201082927}
-  m_RootOrder: 3
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 88.55997, y: -91.04001}
-  m_SizeDelta: {x: 166.93, y: 41.19}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &807585541
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 807585539}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1392445389, guid: f70555f144d8491a825f0804e09c671c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Navigation:
-    m_Mode: 3
-    m_SelectOnUp: {fileID: 0}
-    m_SelectOnDown: {fileID: 0}
-    m_SelectOnLeft: {fileID: 0}
-    m_SelectOnRight: {fileID: 0}
-  m_Transition: 1
-  m_Colors:
-    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
-    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
-    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
-    m_ColorMultiplier: 1
-    m_FadeDuration: 0.1
-  m_SpriteState:
-    m_HighlightedSprite: {fileID: 0}
-    m_PressedSprite: {fileID: 0}
-    m_DisabledSprite: {fileID: 0}
-  m_AnimationTriggers:
-    m_NormalTrigger: Normal
-    m_HighlightedTrigger: Highlighted
-    m_PressedTrigger: Pressed
-    m_DisabledTrigger: Disabled
-  m_Interactable: 1
-  m_TargetGraphic: {fileID: 807585542}
-  m_OnClick:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
-      Culture=neutral, PublicKeyToken=null
---- !u!114 &807585542
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 807585539}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
-      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 0}
-  m_Type: 1
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
---- !u!222 &807585543
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 807585539}
---- !u!114 &807585544
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 807585539}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -1862395651, guid: f70555f144d8491a825f0804e09c671c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Delegates:
-  - eventID: 2
-    callback:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 1583961432}
-          m_MethodName: RotationLeftButtonRepeat
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
-      m_TypeName: UnityEngine.EventSystems.EventTrigger+TriggerEvent, UnityEngine.UI,
-        Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  - eventID: 3
-    callback:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 1583961432}
-          m_MethodName: RotateLeftButtonOff
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
-      m_TypeName: UnityEngine.EventSystems.EventTrigger+TriggerEvent, UnityEngine.UI,
-        Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  delegates: []
 --- !u!1001 &810004452
 Prefab:
   m_ObjectHideFlags: 0
@@ -3479,6 +3166,80 @@ Material:
     m_Floats: []
     m_Colors:
     - _Color: {r: 0.82089555, g: 0.82089555, b: 0.82089555, a: 1}
+--- !u!1 &821937802
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 821937803}
+  - component: {fileID: 821937805}
+  - component: {fileID: 821937804}
+  m_Layer: 5
+  m_Name: lokasi
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &821937803
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 821937802}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 3.584345, y: 1.978412, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1201082927}
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 685.67, y: -127.03}
+  m_SizeDelta: {x: 218.8, y: 167.6}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &821937804
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 821937802}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 15
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 1
+    m_MaxSize: 40
+    m_Alignment: 0
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: 
+--- !u!222 &821937805
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 821937802}
 --- !u!43 &844828130
 Mesh:
   m_ObjectHideFlags: 0
@@ -3733,6 +3494,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   aSource: {fileID: 2027996836}
   aClip: {fileID: 8300000, guid: 8aeddf0cb3aba8f428e07960b6c024e8, type: 3}
+  namaText: {fileID: 464498972}
+  latinText: {fileID: 1789221086}
+  habitatText: {fileID: 1505591714}
+  tempatText: {fileID: 821937804}
+  nama: 'Beruang Grizzly   '
+  latin: Ursus arctos horribilis
+  habitat: Padang Salju
+  tempat: 'Amerika '
 --- !u!114 &879916734
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3852,6 +3621,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   aSource: {fileID: 2027996836}
   aClip: {fileID: 8300000, guid: 90f2ee044e4e7a3418647f83d2c4e3dd, type: 3}
+  namaText: {fileID: 464498972}
+  latinText: {fileID: 1789221086}
+  habitatText: {fileID: 1505591714}
+  tempatText: {fileID: 821937804}
+  nama: Tikus
+  latin: Rattus Rattus
+  habitat: Wilayah Padat Penduduk
+  tempat: Asia
 --- !u!114 &892545555
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4473,14 +4250,14 @@ RectTransform:
   m_GameObject: {fileID: 1087709662}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1.3616681, z: 1}
+  m_LocalScale: {x: 3.584345, y: 3.6193213, z: 1}
   m_Children: []
   m_Father: {fileID: 1201082927}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 146.89996, y: 0.000015258789}
+  m_AnchoredPosition: {x: 675.27795, y: 0.000030518}
   m_SizeDelta: {x: 239.6, y: 311}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1087709664
@@ -4839,6 +4616,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   aSource: {fileID: 2027996836}
   aClip: {fileID: 8300000, guid: 7b0ca471ddfa45f41845f61875f6da02, type: 3}
+  namaText: {fileID: 464498972}
+  latinText: {fileID: 1789221086}
+  habitatText: {fileID: 1505591714}
+  tempatText: {fileID: 821937804}
+  nama: Gajah
+  latin: Loxodonta cyclotis
+  habitat: Padang Rumput
+  tempat: 'Afrika '
 --- !u!114 &1171271041
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5144,6 +4929,165 @@ Mesh:
   m_BakedConvexCollisionMesh: 
   m_BakedTriangleCollisionMesh: 
   m_MeshOptimized: 0
+--- !u!1 &1197434650
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1197434651}
+  - component: {fileID: 1197434655}
+  - component: {fileID: 1197434654}
+  - component: {fileID: 1197434653}
+  - component: {fileID: 1197434652}
+  m_Layer: 5
+  m_Name: rotateleft
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1197434651
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1197434650}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 2.242438, y: 2.2247784, z: 1}
+  m_Children:
+  - {fileID: 1218311933}
+  m_Father: {fileID: 1201082927}
+  m_RootOrder: 10
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 901.09, y: -370.83002}
+  m_SizeDelta: {x: 162.9, y: 39.11}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1197434652
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1197434650}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1862395651, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates:
+  - eventID: 2
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1583961432}
+          m_MethodName: RotationLeftButtonRepeat
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+      m_TypeName: UnityEngine.EventSystems.EventTrigger+TriggerEvent, UnityEngine.UI,
+        Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  - eventID: 3
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1583961432}
+          m_MethodName: RotateLeftButtonOff
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+      m_TypeName: UnityEngine.EventSystems.EventTrigger+TriggerEvent, UnityEngine.UI,
+        Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  delegates: []
+--- !u!114 &1197434653
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1197434650}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1392445389, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 1197434654}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+--- !u!114 &1197434654
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1197434650}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+--- !u!222 &1197434655
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1197434650}
 --- !u!1 &1201082923
 GameObject:
   m_ObjectHideFlags: 0
@@ -5232,11 +5176,14 @@ RectTransform:
   - {fileID: 1087709663}
   - {fileID: 1500303635}
   - {fileID: 1250677540}
-  - {fileID: 807585540}
-  - {fileID: 669219442}
   - {fileID: 1712017634}
   - {fileID: 695220918}
   - {fileID: 464498971}
+  - {fileID: 1789221085}
+  - {fileID: 1505591713}
+  - {fileID: 821937803}
+  - {fileID: 1442521077}
+  - {fileID: 1197434651}
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -5377,6 +5324,73 @@ Prefab:
 Transform:
   m_PrefabParentObject: {fileID: 400002, guid: 69f2dde98133c434ea1898d66470cdb7, type: 3}
   m_PrefabInternal: {fileID: 1214047021}
+--- !u!1 &1218311932
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1218311933}
+  - component: {fileID: 1218311935}
+  - component: {fileID: 1218311934}
+  m_Layer: 5
+  m_Name: RawImage
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1218311933
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1218311932}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1197434651}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 2.385, y: -0.655}
+  m_SizeDelta: {x: 167.67, y: 37.8}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1218311934
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1218311932}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -98529514, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_Texture: {fileID: 2800000, guid: f5862e0cfc039a542a07bb5a67d19ccf, type: 3}
+  m_UVRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+--- !u!222 &1218311935
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1218311932}
 --- !u!43 &1247893537
 Mesh:
   m_ObjectHideFlags: 0
@@ -5532,14 +5546,14 @@ RectTransform:
   m_GameObject: {fileID: 1250677539}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 3.584345, y: 3.1300523, z: 1}
   m_Children: []
   m_Father: {fileID: 1201082927}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 148, y: 16.525993}
+  m_AnchoredPosition: {x: 679.23, y: 71.807}
   m_SizeDelta: {x: 218.8, y: 173.95}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1250677541
@@ -5656,6 +5670,10 @@ Prefab:
     - target: {fileID: 400002, guid: ad260314a539efe48b90fa50e55b7577, type: 3}
       propertyPath: m_LocalPosition.z
       value: -53
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: ad260314a539efe48b90fa50e55b7577, type: 3}
+      propertyPath: m_TagString
+      value: Model
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: ad260314a539efe48b90fa50e55b7577, type: 3}
@@ -5893,6 +5911,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   aSource: {fileID: 2027996836}
   aClip: {fileID: 8300000, guid: dc3ad39bd7870184fa5a5cd5cdb149fb, type: 3}
+  namaText: {fileID: 464498972}
+  latinText: {fileID: 1789221086}
+  habitatText: {fileID: 1505591714}
+  tempatText: {fileID: 821937804}
+  nama: Kuda
+  latin: Equus ferus caballus
+  habitat: Padang Rumput
+  tempat: Asia
 --- !u!114 &1296212860
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6239,6 +6265,165 @@ Mesh:
   m_BakedConvexCollisionMesh: 
   m_BakedTriangleCollisionMesh: 
   m_MeshOptimized: 0
+--- !u!1 &1442521076
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1442521077}
+  - component: {fileID: 1442521081}
+  - component: {fileID: 1442521080}
+  - component: {fileID: 1442521079}
+  - component: {fileID: 1442521078}
+  m_Layer: 5
+  m_Name: rotateright
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1442521077
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1442521076}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0.7}
+  m_LocalScale: {x: 2.242438, y: 2.2247784, z: 1}
+  m_Children:
+  - {fileID: 1509679911}
+  m_Father: {fileID: 1201082927}
+  m_RootOrder: 9
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 464.80984, y: -367.08002}
+  m_SizeDelta: {x: 167.7, y: 37.9}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1442521078
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1442521076}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1862395651, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates:
+  - eventID: 2
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1583961432}
+          m_MethodName: RotationRightButtonRepeat
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+      m_TypeName: UnityEngine.EventSystems.EventTrigger+TriggerEvent, UnityEngine.UI,
+        Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  - eventID: 3
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1583961432}
+          m_MethodName: RotateRightButtonOff
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+      m_TypeName: UnityEngine.EventSystems.EventTrigger+TriggerEvent, UnityEngine.UI,
+        Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  delegates: []
+--- !u!114 &1442521079
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1442521076}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1392445389, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 1442521080}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+--- !u!114 &1442521080
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1442521076}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+--- !u!222 &1442521081
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1442521076}
 --- !u!4 &1474019749 stripped
 Transform:
   m_PrefabParentObject: {fileID: 400002, guid: 273045764f540194e9b12ae2c8713850, type: 3}
@@ -6293,14 +6478,14 @@ RectTransform:
   m_GameObject: {fileID: 1500303634}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 3.584345, y: 3.1300523, z: 1}
   m_Children: []
   m_Father: {fileID: 1201082927}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 146.89996, y: 123}
+  m_AnchoredPosition: {x: 675.27795, y: 405.07}
   m_SizeDelta: {x: 96, y: 28.5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1500303636
@@ -6335,6 +6520,147 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1500303634}
+--- !u!1 &1505591712
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1505591713}
+  - component: {fileID: 1505591715}
+  - component: {fileID: 1505591714}
+  m_Layer: 5
+  m_Name: habitat
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1505591713
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1505591712}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 3.584345, y: 1.978412, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1201082927}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 685.67, y: -55.042}
+  m_SizeDelta: {x: 218.8, y: 167.6}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1505591714
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1505591712}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 15
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 1
+    m_MaxSize: 40
+    m_Alignment: 0
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: 
+--- !u!222 &1505591715
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1505591712}
+--- !u!1 &1509679910
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1509679911}
+  - component: {fileID: 1509679913}
+  - component: {fileID: 1509679912}
+  m_Layer: 5
+  m_Name: RawImage
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1509679911
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1509679910}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1442521077}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0.014429, y: -0.0075092}
+  m_SizeDelta: {x: 167.67, y: 37.8}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1509679912
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1509679910}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -98529514, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_Texture: {fileID: 2800000, guid: 26a3be9e38e59e34ba1669090a00fe77, type: 3}
+  m_UVRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+--- !u!222 &1509679913
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1509679910}
 --- !u!43 &1512040533
 Mesh:
   m_ObjectHideFlags: 0
@@ -6719,6 +7045,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   aSource: {fileID: 2027996836}
   aClip: {fileID: 8300000, guid: b01695cd1706fe54488ade0d62ec1870, type: 3}
+  namaText: {fileID: 464498972}
+  latinText: {fileID: 1789221086}
+  habitatText: {fileID: 1505591714}
+  tempatText: {fileID: 821937804}
+  nama: Zebra
+  latin: Equus quagga
+  habitat: Padang Rumput
+  tempat: Afrika
 --- !u!114 &1578167236
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7220,6 +7554,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   aSource: {fileID: 2027996836}
   aClip: {fileID: 8300000, guid: ee6a71a165082e74ba29ad7f4bea45f4, type: 3}
+  namaText: {fileID: 464498972}
+  latinText: {fileID: 1789221086}
+  habitatText: {fileID: 1505591714}
+  tempatText: {fileID: 821937804}
+  nama: Pinguin
+  latin: Aptenodytes forsteri
+  habitat: Tundra
+  tempat: Artik
 --- !u!114 &1684000995
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7266,16 +7608,16 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1712017633}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.62562, y: 0.71077996, z: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0.7}
+  m_LocalScale: {x: 2.242438, y: 2.2247784, z: 1}
   m_Children:
   - {fileID: 233603405}
   m_Father: {fileID: 1201082927}
-  m_RootOrder: 5
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 88.17993, y: -134.41505}
+  m_AnchoredPosition: {x: 464.80984, y: -471}
   m_SizeDelta: {x: 167.7, y: 37.9}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1712017635
@@ -7498,6 +7840,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   aSource: {fileID: 2027996836}
   aClip: {fileID: 8300000, guid: a0f4bebc96d8c754c80c04a1d7276391, type: 3}
+  namaText: {fileID: 464498972}
+  latinText: {fileID: 1789221086}
+  habitatText: {fileID: 1505591714}
+  tempatText: {fileID: 821937804}
+  nama: Serigala
+  latin: Canis Lupus
+  habitat: Pegunungan Bersalju
+  tempat: Eurasia
 --- !u!114 &1714250094
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7605,6 +7955,80 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 776e33df9e752bc4d9f5e3b51c66676e, type: 3}
   m_IsPrefabParent: 0
+--- !u!1 &1789221084
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1789221085}
+  - component: {fileID: 1789221087}
+  - component: {fileID: 1789221086}
+  m_Layer: 5
+  m_Name: latin
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1789221085
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1789221084}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 3.584345, y: 1.978412, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1201082927}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 685.67, y: 10.688999}
+  m_SizeDelta: {x: 218.8, y: 167.6}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1789221086
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1789221084}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 15
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 1
+    m_MaxSize: 40
+    m_Alignment: 0
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: 
+--- !u!222 &1789221087
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1789221084}
 --- !u!1001 &1843254268
 Prefab:
   m_ObjectHideFlags: 0
@@ -7822,6 +8246,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   aSource: {fileID: 2027996836}
   aClip: {fileID: 8300000, guid: 94de91b1231a58a408aeca4da7cdf8a7, type: 3}
+  namaText: {fileID: 464498972}
+  latinText: {fileID: 1789221086}
+  habitatText: {fileID: 1505591714}
+  tempatText: {fileID: 821937804}
+  nama: Kanguru
+  latin: Macropus giganteus
+  habitat: Padang Rumput
+  tempat: 'Australia '
 --- !u!114 &1885857729
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8123,6 +8555,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   aSource: {fileID: 2027996836}
   aClip: {fileID: 8300000, guid: 18dc0dc3e908eb1469d93855dc2163d7, type: 3}
+  namaText: {fileID: 464498972}
+  latinText: {fileID: 1789221086}
+  habitatText: {fileID: 1505591714}
+  tempatText: {fileID: 821937804}
+  nama: Jerapah
+  latin: Giraffa camelopardalis
+  habitat: Padang Rumput
+  tempat: Afrika
 --- !u!114 &2024190042
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8351,6 +8791,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   aSource: {fileID: 2027996836}
   aClip: {fileID: 8300000, guid: 8834fce753cd410419287a0da0160c42, type: 3}
+  namaText: {fileID: 464498972}
+  latinText: {fileID: 1789221086}
+  habitatText: {fileID: 1505591714}
+  tempatText: {fileID: 821937804}
+  nama: Rusa
+  latin: Cervus canadensis
+  habitat: Tundra
+  tempat: Asia
 --- !u!114 &2029037440
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8470,6 +8918,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   aSource: {fileID: 2027996836}
   aClip: {fileID: 8300000, guid: 82a746326a13e544e8256b2cda09d344, type: 3}
+  namaText: {fileID: 464498972}
+  latinText: {fileID: 1789221086}
+  habitatText: {fileID: 1505591714}
+  tempatText: {fileID: 821937804}
+  nama: Panda
+  latin: Ailuropoda melanoleuca
+  habitat: Pegunungan
+  tempat: Asia
 --- !u!114 &2040495351
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8622,73 +9078,6 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: dc0da1d7f892e1f498410df97a311269, type: 3}
   m_IsPrefabParent: 0
---- !u!1 &2078507149
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 2078507150}
-  - component: {fileID: 2078507152}
-  - component: {fileID: 2078507151}
-  m_Layer: 5
-  m_Name: RawImage
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &2078507150
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 2078507149}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 669219442}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.00000011921, y: -0.00012607}
-  m_SizeDelta: {x: 166.3, y: 39.1}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &2078507151
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 2078507149}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -98529514, guid: f70555f144d8491a825f0804e09c671c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
-      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Texture: {fileID: 2800000, guid: f5862e0cfc039a542a07bb5a67d19ccf, type: 3}
-  m_UVRect:
-    serializedVersion: 2
-    x: 0
-    y: 0
-    width: 1
-    height: 1
---- !u!222 &2078507152
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 2078507149}
 --- !u!1 &2096724048
 GameObject:
   m_ObjectHideFlags: 0

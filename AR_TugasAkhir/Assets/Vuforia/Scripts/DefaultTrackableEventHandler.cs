@@ -8,6 +8,7 @@ Confidential and Proprietary - Protected under copyright and other laws.
 
 using UnityEngine;
 using Vuforia;
+using UnityEngine.UI;
 
 /// <summary>
 ///     A custom handler that implements the ITrackableEventHandler interface.
@@ -24,6 +25,17 @@ public class DefaultTrackableEventHandler : MonoBehaviour, ITrackableEventHandle
 
     public AudioSource aSource;
     public AudioClip aClip;
+
+    public Text namaText;
+    public Text latinText;
+    public Text habitatText;
+    public Text tempatText;
+
+    public string nama;
+    public string latin;
+    public string habitat;
+    public string tempat;
+
 
     protected virtual void Start()
     {
@@ -57,6 +69,10 @@ public class DefaultTrackableEventHandler : MonoBehaviour, ITrackableEventHandle
             Debug.Log("Trackable " + mTrackableBehaviour.TrackableName + " found");
              aSource.PlayOneShot(aClip);
             OnTrackingFound();
+            namaText.text = "nama hewan ini adalah" + nama;
+            latinText.text = "nama latinnya " +latin;
+            habitatText.text = "dia berhabitat " + habitat;
+            tempatText.text = "bisa ditemui di " + tempat;
            
         }
         else if (previousStatus == TrackableBehaviour.Status.TRACKED &&
@@ -65,6 +81,10 @@ public class DefaultTrackableEventHandler : MonoBehaviour, ITrackableEventHandle
             Debug.Log("Trackable " + mTrackableBehaviour.TrackableName + " lost");
             aSource.Stop();
             OnTrackingLost();
+            namaText.text = "";
+            latinText.text = "";
+            habitatText.text = "";
+            tempatText.text = "";
         }
         else
         {
