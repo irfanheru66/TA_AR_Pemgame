@@ -8,9 +8,12 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scene/mainmenu.unity
     guid: 4f712fcec459d824f8ac7a2c2b8a0fc8
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scene/credits.unity
     guid: 0413e55e92476a84d8fd75c9034890fc
   - enabled: 1
     path: Assets/Scene/minari.unity
     guid: a79c93eb8fd7de94f8f336e6e46ef735
+  - enabled: 1
+    path: Assets/Scene/credit.unity
+    guid: 3ad7ff69e1af8a643989b39abca6f1bd
